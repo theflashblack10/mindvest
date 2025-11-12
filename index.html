@@ -1,1 +1,156 @@
-<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>MINDVEST</title></head><body><h1>MINDVEST - Invista com a mente certa</h1></body></html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MINDVEST - Invista com a mente certa</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="MINDVEST — Descubra seu perfil de investidor, receba conteúdos gratuitos e desbloqueie relatórios Premium." />
+</head>
+<body class="light-mode">
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="left">
+      <div class="logo">🧠 <span class="brand">MINDVEST</span></div>
+    </div>
+
+    <div class="right">
+      <div class="lang-wrap">
+        <select id="lang-select" aria-label="Selecionar idioma">
+          <option value="auto">🌐 Auto</option>
+          <option value="pt">Português (PT)</option>
+          <option value="es">Español (ES)</option>
+          <option value="en">English (EN)</option>
+        </select>
+      </div>
+
+      <button id="theme-toggle" class="theme-btn" aria-label="Alternar tema">🌙</button>
+    </div>
+  </header>
+
+  <!-- Prova Social -->
+  <section class="investors-banner">
+    <div class="investors-icon">
+      <img src="https://img.icons8.com/fluency/48/user-group-man-man.png" alt="Investidores MINDVEST">
+    </div>
+    <div class="investors-text">
+      <strong id="investor-count">+3.000</strong> <span id="investor-text">investidores já descobriram seu perfil</span> <span class="brand">MINDVEST</span>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <main class="intro" id="main">
+    <h1 id="headline">Descubra quem você é como investidor</h1>
+    <p id="subhead">Em menos de 60 segundos, entenda seu perfil e receba estratégias sob medida para 2025.</p>
+    <button class="start-btn" id="start-quiz-btn">Começar Quiz (Grátis)</button>
+  </main>
+
+  <!-- Quiz -->
+  <div id="quiz-modal" class="modal hidden">
+    <div class="modal-content">
+      <button class="close-btn" id="close-quiz">✖</button>
+      <h2 id="quiz-title">Quiz Rápido</h2>
+      <form id="quiz-form">
+        <div class="q">
+          <label id="q0-label">1) Qual é seu objetivo principal?</label>
+          <select name="q0" required>
+            <option value="">-- selecione --</option>
+            <option value="curto">Curto prazo</option>
+            <option value="medio">Médio prazo</option>
+            <option value="longo">Longo prazo</option>
+          </select>
+        </div>
+        <div class="q">
+          <label id="q1-label">2) Como você reage à queda de mercado?</label>
+          <select name="q1" required>
+            <option value="">-- selecione --</option>
+            <option value="vender">Vendo tudo</option>
+            <option value="manter">Mantenho</option>
+            <option value="comprar">Compro mais</option>
+          </select>
+        </div>
+        <div class="q">
+          <label id="q2-label">3) Já investiu em ações ou cripto?</label>
+          <select name="q2" required>
+            <option value="">-- selecione --</option>
+            <option value="nenhum">Nenhum</option>
+            <option value="algumas">Algumas</option>
+            <option value="muito">Muita experiência</option>
+          </select>
+        </div>
+        <div class="q">
+          <label id="q3-label">4) Quanto você reserva para emergências?</label>
+          <select name="q3" required>
+            <option value="">-- selecione --</option>
+            <option value="0-3">0–3 meses</option>
+            <option value="3-6">3–6 meses</option>
+            <option value="6+">6+ meses</option>
+          </select>
+        </div>
+        <div class="q">
+          <label id="q4-label">5) Qual valor inicial pretende investir?</label>
+          <select name="q4" required>
+            <option value="">-- selecione --</option>
+            <option value="baixo">Até R$1.000</option>
+            <option value="medio">R$1.000–10.000</option>
+            <option value="alto">Acima</option>
+          </select>
+        </div>
+        <div class="quiz-actions">
+          <button type="submit" class="start-btn">Ver Resultado</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Resultado -->
+  <section id="result-section" class="hidden">
+    <div class="result-card">
+      <h2 id="profile-name">Perfil: —</h2>
+      <p id="profile-desc">—</p>
+
+      <h3>Conteúdos gratuitos para você</h3>
+      <div id="free-list" class="content-list"></div>
+
+      <div class="cta-row">
+        <button id="unlock-premium" class="upgrade-btn">🔓 Desbloquear MINDVEST Premium</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Premium -->
+  <div id="premium-modal" class="modal hidden">
+    <div class="modal-content premium">
+      <button class="close-btn" id="close-premium">✖</button>
+      <h2 id="premium-title">MINDVEST Premium</h2>
+      <p id="premium-sub">7 dias grátis • Cancelamento a qualquer momento</p>
+      <ul class="benefits">
+        <li>📈 Relatórios completos</li>
+        <li>🧾 Planilhas e simuladores</li>
+        <li>🚀 Carteira 2025</li>
+        <li>🔒 Acesso exclusivo</li>
+      </ul>
+
+      <div class="pricing">
+        <div>
+          <strong>Mensal</strong>
+          <div class="price">R$9,90/mês</div>
+          <a id="stripe-monthly" class="buy-btn" target="_blank">Assinar Mensal</a>
+        </div>
+        <div>
+          <strong>Anual</strong>
+          <div class="price">R$59,90/ano <span class="badge">50% OFF</span></div>
+          <a id="stripe-annual" class="buy-btn" target="_blank">Assinar Anual</a>
+        </div>
+      </div>
+
+      <div class="scarcity">
+        <small>Oferta limitada. Promoção visível no checkout.</small>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
