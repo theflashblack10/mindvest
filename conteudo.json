@@ -1,1 +1,154 @@
-{"texts": {"headline": {"pt": "Teste"}}}
+{
+  "texts": {
+    "headline": {
+      "pt": "Descubra quem você é como investidor",
+      "es": "Descubre quién eres como inversor",
+      "en": "Discover who you are as an investor"
+    },
+    "subhead": {
+      "pt": "Em menos de 60 segundos, entenda seu perfil e receba estratégias sob medida para 2025.",
+      "es": "En menos de 60 segundos, entiende tu perfil y recibe estrategias para 2025.",
+      "en": "In under 60 seconds, understand your profile and get tailored strategies for 2025."
+    },
+    "start_quiz": {
+      "pt": "Começar Quiz (Grátis)",
+      "es": "Comenzar Quiz (Gratis)",
+      "en": "Start Quiz (Free)"
+    },
+    "quiz_title": {
+      "pt": "Quiz Rápido",
+      "es": "Quiz Rápido",
+      "en": "Quick Quiz"
+    },
+    "investor_text": {
+      "pt": "investidores já descobriram seu perfil",
+      "es": "inversores ya descubrieron su perfil",
+      "en": "investors have discovered their profile"
+    },
+    "premium_title": {
+      "pt": "MINDVEST Premium",
+      "es": "MINDVEST Premium",
+      "en": "MINDVEST Premium"
+    },
+    "premium_sub": {
+      "pt": "7 dias grátis • Cancelamento a qualquer momento",
+      "es": "7 días gratis • Cancelación en cualquier momento",
+      "en": "7 days free • Cancel anytime"
+    },
+    "unlock_premium": {
+      "pt": "🔓 Desbloquear MINDVEST Premium",
+      "es": "🔓 Desbloquear MINDVEST Premium",
+      "en": "🔓 Unlock MINDVEST Premium"
+    },
+    "buy_monthly": {
+      "pt": "Assinar Mensal",
+      "es": "Suscribirse Mensual",
+      "en": "Subscribe Monthly"
+    },
+    "buy_annual": {
+      "pt": "Assinar Anual",
+      "es": "Suscribirse Anual",
+      "en": "Subscribe Annual"
+    },
+    "profile_label": {
+      "pt": "Perfil:",
+      "es": "Perfil:",
+      "en": "Profile:"
+    },
+    "profile_conservative": {
+      "pt": "Estrategista Seguro",
+      "es": "Estratega Seguro",
+      "en": "Secure Strategist"
+    },
+    "profile_moderate": {
+      "pt": "Investidor Equilibrado",
+      "es": "Inversor Equilibrado",
+      "en": "Balanced Investor"
+    },
+    "profile_aggressive": {
+      "pt": "Visionário Global",
+      "es": "Visionario Global",
+      "en": "Global Visionary"
+    },
+    "desc_conservative": {
+      "pt": "Foco em preservação de capital e estratégias conservadoras. Ideal para quem prioriza segurança.",
+      "es": "Enfoque en preservación de capital y estrategias conservadoras. Ideal para quien prioriza seguridad.",
+      "en": "Focus on capital preservation and conservative strategies. Ideal for those prioritizing safety."
+    },
+    "desc_moderate": {
+      "pt": "Busca crescimento com controle de risco. Carteiras diversificadas e rebalanceamento periódico.",
+      "es": "Busca crecimiento con control de riesgo. Carteras diversificadas y rebalanceo periódico.",
+      "en": "Seeks growth with risk control. Diversified portfolios and periodic rebalancing."
+    },
+    "desc_aggressive": {
+      "pt": "Aposta em crescimento e oportunidades globais, incluindo ativos alternativos e cripto.",
+      "es": "Apuesta al crecimiento y oportunidades globales, incluyendo activos alternativos y cripto.",
+      "en": "Betting on growth and global opportunities, including alternative assets and crypto."
+    }
+  },
+
+  "free": [
+    {
+      "titulo_pt": "As 3 Dimensões do Investimento",
+      "descricao_pt": "Resumo prático sobre autoconhecimento financeiro, produtos e estratégias — baseado no ebook Growing Money Wisely.",
+      "titulo_es": "Las 3 Dimensiones de la Inversión",
+      "descricao_es": "Resumen práctico sobre autoconocimiento financiero, productos y estrategias — basado en Growing Money Wisely.",
+      "titulo_en": "The 3 Dimensions of Investing",
+      "descricao_en": "Practical summary about self-knowledge, products and strategies — based on Growing Money Wisely."
+    },
+    {
+      "titulo_pt": "Juros Compostos e Regra de 72",
+      "descricao_pt": "Aprenda como o tempo multiplica seu dinheiro e como calcular o dobro do capital com a Regra de 72.",
+      "titulo_es": "Interés Compuesto y Regla del 72",
+      "descricao_es": "Aprende cómo el tiempo multiplica tu dinero y cómo calcular el doble del capital con la Regla del 72.",
+      "titulo_en": "Compound Interest & Rule of 72",
+      "descricao_en": "Learn how time multiplies your money and how to estimate doubling time using the Rule of 72."
+    },
+    {
+      "titulo_pt": "Introdução ao Bitcoin",
+      "descricao_pt": "Entenda o que é blockchain, prova de trabalho e como o Bitcoin resolve o problema do gasto duplo.",
+      "titulo_es": "Introducción a Bitcoin",
+      "descricao_es": "Entiende qué es blockchain, proof-of-work y cómo Bitcoin resuelve el gasto doble.",
+      "titulo_en": "Introduction to Bitcoin",
+      "descricao_en": "Understand what blockchain and proof-of-work are, and how Bitcoin solves double-spending."
+    },
+    {
+      "titulo_pt": "Como funciona o Mercado Financeiro",
+      "descricao_pt": "Aprenda sobre mercados primário e secundário, ações, títulos e índices — conceitos essenciais para investidores.",
+      "titulo_es": "Cómo funciona el Mercado Financiero",
+      "descricao_es": "Aprende sobre mercados primario y secundario, acciones, bonos e índices — conceptos esenciales para inversores.",
+      "titulo_en": "How Financial Markets Work",
+      "descricao_en": "Learn about primary and secondary markets, stocks, bonds, and indices — key concepts for investors."
+    }
+  ],
+
+  "premium": [
+    {
+      "titulo_pt": "Relatório MINDVEST 2025 (Completo)",
+      "descricao_pt": "Análises, previsões e carteiras sugeridas para 2025 — acesso exclusivo a relatórios e gráficos detalhados.",
+      "titulo_es": "Informe MINDVEST 2025 (Completo)",
+      "descricao_es": "Análisis, previsiones y carteras sugeridas para 2025 — acceso exclusivo a informes detallados.",
+      "titulo_en": "MINDVEST Report 2025 (Full)",
+      "descricao_en": "Detailed analysis, forecasts and portfolio suggestions for 2025 — full premium access.",
+      "tag": "PAID"
+    },
+    {
+      "titulo_pt": "Planilha de Alocação Estratégica",
+      "descricao_pt": "Monte sua carteira ideal com uma planilha automatizada de risco e retorno. Inclui simulações.",
+      "titulo_es": "Hoja de Asignación Estratégica",
+      "descricao_es": "Construye tu cartera ideal con una hoja automatizada de riesgo y retorno. Incluye simulaciones.",
+      "titulo_en": "Strategic Allocation Spreadsheet",
+      "descricao_en": "Build your ideal portfolio with an automated risk-return spreadsheet. Includes simulations.",
+      "tag": "PAID"
+    },
+    {
+      "titulo_pt": "Criptoeconomia — Guia Avançado",
+      "descricao_pt": "Análise aprofundada do Bitcoin e das oportunidades em criptoativos para investidores em 2025.",
+      "titulo_es": "Criptoeconomía — Guía Avanzada",
+      "descricao_es": "Análisis avanzado de Bitcoin y oportunidades en criptoactivos para inversores en 2025.",
+      "titulo_en": "Cryptoeconomics — Advanced Guide",
+      "descricao_en": "Advanced analysis of Bitcoin and crypto investment opportunities for 2025.",
+      "tag": "PAID"
+    }
+  ]
+}
